@@ -1,0 +1,1 @@
+# thunderbird-msgFilterRules-builder
