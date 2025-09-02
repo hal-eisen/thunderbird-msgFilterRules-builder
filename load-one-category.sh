@@ -13,6 +13,6 @@ fi
 
 for value in $( cat $1 )
 do
-  uv run main.py --rule-name $1 --header-field from --file-path $2 --dest-folder imap://eisen@imap.lxdn.org/$1 --value $value
+  uv run main.py --rule-name $1 --header-field from --file-path $2 --dest-folder imap://USER@imap.example.com/$1 --value $value
 done
 
