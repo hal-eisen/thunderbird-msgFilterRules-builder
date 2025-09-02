@@ -14,7 +14,7 @@ class TestFilterAdderApp(unittest.TestCase):
     
     def setUp(self):
         self.app = FilterAdderApp()
-        self.test_file_path = "/home/eisen/snap/thunderbird/common/.thunderbird/8blc452o.default/ImapMail/imap.lxdn.org/msgFilterRules.dat"
+        self.test_file_path = "/home/USER/snap/thunderbird/common/.thunderbird/PROFILE.default/ImapMail/imap.EXAMPLE.COM/msgFilterRules.dat"
     
     def test_validate_header_field_valid(self):
         """Test validation of valid header fields."""
