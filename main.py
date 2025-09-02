@@ -20,7 +20,7 @@ class FilterAdderApp:
     
     def __init__(self, verbose: bool = False):
         self.parser = MsgFilterParser()
-        self.default_file_path = "/home/eisen/snap/thunderbird/common/.thunderbird/8blc452o.default/ImapMail/imap.lxdn.org/msgFilterRules.dat"
+        self.default_file_path = "/home/USER/snap/thunderbird/common/.thunderbird/PROFILE.default/ImapMail/imap.EXAMPLE.COM/msgFilterRules.dat"
         
         # Set up logging
         log_level = logging.DEBUG if verbose else logging.INFO
